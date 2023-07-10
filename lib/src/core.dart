@@ -72,7 +72,6 @@ abstract class GoogleResponseStatus {
   static const maxWaypointsExceeded = 'MAX_WAYPOINTS_EXCEEDED';
   static const maxRouteLengthExceeded = 'MAX_ROUTE_LENGTH_EXCEEDED';
 
-  // TODO use enum for Response status
   final String status;
 
   /// JSON error_message
